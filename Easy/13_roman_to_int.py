@@ -11,5 +11,4 @@ def romanToInt(s: str) -> int:
             
         else:
             result += currValue
-        print(f"i:{i}, roman:{s[i]}, value:{currValue},result:{result}")
     return result
